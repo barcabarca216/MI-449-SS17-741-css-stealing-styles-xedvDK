@@ -1,0 +1,125 @@
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+[class~=purple]:hover {
+  color: #b400b9;
+}
+
+[class~=red]:hover {
+  color: #c62d48;
+}
+
+[class~=blue]:hover {
+  color: #56b6c2;
+}
+
+[class~=yellow]:hover {
+  color: #c6ad00;
+}
+
+div.result,
+p.result {
+  padding: 20px;
+  border: 1px solid #d4dada;
+  border-radius: 3px;
+  position: relative;
+  margin: 20px 0;
+}
+
+*,
+::after {
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+div {
+  display: block;
+}
+
+div.result:after;
+p.result:after: {
+  content: 'RESULT';
+  background-color: rgba(0, 0, 0, 0.1);
+  color: inherit;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: Lato;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 1px 7px;
+  border-bottom-left-radius: 3px;
+  z-index: 2;
+}
+
+input:not([type]):focus {
+  border: 1px solid #07682c;
+  outline: 0;
+}
+
+input:not([type]) {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #d4dada;
+  border-radius: 3px;
+  box-shadow: none;
+  vertical-align: bottom;
+}
+
+input {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0 px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+}
+
+@media (min-width: 670px)
+  index-f02568a….css: 1
+  #intro li: last-child a {
+  color: #7795f8;
+}
+
+.common-Button:active {
+  color: #555abf;
+  background-color: #f6f9fc;
+  transform: translateY(1px);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.common-Button:hover {
+  color: #7795f8;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.common-Button {
+  width: auto;
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #6772e5;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
